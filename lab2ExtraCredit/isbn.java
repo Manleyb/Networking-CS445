@@ -3,10 +3,11 @@ import java.util.*;
 class isbn {
 
     /*
-     * Bryce Manley
+     * Bryce Manley, Nathan Kline, Kai Vickers
      * Networking
      * Lab 2 Extra credit
      * ISBN Checker
+     * will determin if a given isbn is valid will not accept command line args
      */
 
     public static void main(String[] args) {
@@ -60,6 +61,8 @@ class isbn {
         } else {
 
             sum += later;
+            //did not know you could add char to int like this 
+            //the more you know https://www.youtube.com/watch?v=GD6qtc2_AQA
         }
 
         // finally we perfom the check by dividing the sum by 11
